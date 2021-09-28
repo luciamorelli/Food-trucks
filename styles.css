@@ -234,8 +234,6 @@
                 font-size: large;
             }
 
-        
-
            
             /*Section 3*/
             #main__section3{
@@ -248,8 +246,28 @@
               
             }
 
-            /*Footer*/
+            .main__section3--contenedor{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                align-items: center;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
 
-    
-
+            .main__section3--contenedor--1{
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+                width: 30%;
+                height: 80%;
+                margin-right: 20px;
+            }
+            .main__section3--contenedor--2{
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                width: 70%;
+                height: 80%;
+            }
 
